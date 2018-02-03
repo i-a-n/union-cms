@@ -1,10 +1,21 @@
-# Lektor
+# Union CMS: A Lektor Fork for Server-Side Editing
 
-[![Unix Build Status](https://api.travis-ci.org/lektor/lektor.svg?branch=master)](https://travis-ci.org/lektor/lektor)
-[![Windows Build Status](https://ci.appveyor.com/api/projects/status/github/lektor/lektor?branch=master&svg=true)](https://ci.appveyor.com/project/lektor/lektor)
-[![Code Coverage](https://codecov.io/gh/lektor/lektor/branch/master/graph/badge.svg)](https://codecov.io/gh/lektor/lektor)
-[![PyPI version](https://badge.fury.io/py/Lektor.svg)](https://badge.fury.io/py/Lektor)
-[![Join the chat at https://gitter.im/lektor/lektor](https://badges.gitter.im/lektor/lektor.svg)](https://gitter.im/lektor/lektor?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+The purpose of this fork is to better support remote/server-side editing of the Lektor static CMS system. Lektor is great, but only has support for editing of Lektor sites on your local client (sites are then remotely synced to the production server, once built locally). In order to facilitate remote editing by multiple authors, Union CMS hopes to provide:
+
+- Support for running the Lektor admin on a remote server
+- A method for multiple authors to log in
+- A "local" publish option, which will simply `cp` the build to the proper folder locally
+- Easy instructions for how to set up both the editor and the published site on the same server
+
+In addition, Union CMS will also hope to one day have:
+
+- Material Design theme on the editor itself
+- A way to customize the editor (colors and logos)
+- A better way to attach images to individual pages
+- JSON responses automatically generated for certain meta data
+- Some way for multiple logins to be managed through the interface
+
+## The original Lektor README follows:
 
 Lektor is a static website generator.  It builds out an entire project
 from static files into many individual HTML pages and has a built-in
