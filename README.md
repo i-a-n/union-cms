@@ -15,6 +15,11 @@ In addition, Union CMS will also hope to one day have:
 - JSON responses automatically generated for certain meta data
 - Some way for multiple logins to be managed through the interface
 
+As a result:
+
+- Windows and Mac support may lapse, and eventually be removed
+- The desktop app will no longer be supported
+
 ## The original Lektor README follows:
 
 Lektor is a static website generator.  It builds out an entire project
