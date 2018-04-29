@@ -10,7 +10,7 @@ tests_require = [
 
 setup(
     name='Lektor',
-    version='3.1',
+    version='3.1.1',
     url='http://github.com/lektor/lektor/',
     description='A static content management system.',
     license='BSD',
@@ -39,6 +39,7 @@ setup(
         'ipython': ['ipython'],
     },
     classifiers=[
+        'Framework :: Lektor',
         'Environment :: Web Environment',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: BSD License',
